@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "plugin-load-timing": {
+      "source": {
+        "source": "github",
+        "repo": "goodfoot-io/plugin-load-timing-issue-reproduction-marketplace"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "sessionstart-hook-demonstration@plugin-load-timing": true
+  }
+}

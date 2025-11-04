@@ -1,0 +1,27 @@
+# Test artifacts
+SESSION_START_HOOK_COMPLETE
+
+# Claude Code cache and temporary files
+.claude/cache/
+.claude/tmp/
+.claude/.state
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
