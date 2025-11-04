@@ -1,4 +1,7 @@
 {
+  "enabledPlugins": {
+    "sessionstart-hook-demonstration@plugin-load-timing": true
+  },
   "extraKnownMarketplaces": {
     "plugin-load-timing": {
       "source": {
@@ -6,8 +9,5 @@
         "repo": "goodfoot-io/plugin-load-timing-issue-reproduction-marketplace"
       }
     }
-  },
-  "enabledPlugins": {
-    "sessionstart-hook-demonstration@plugin-load-timing": true
   }
 }

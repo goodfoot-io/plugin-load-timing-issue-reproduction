@@ -47,12 +47,12 @@ This file configures Claude Code with the following settings:
 This script automates the bug reproduction process:
 
 1. **First Claude Run**: Executes `claude -p "Say 'hello world'"`
-2. **First Check**: Verifies if `/workspace/SESSION_START_HOOK_COMPLETE` exists
+2. **First Check**: Verifies if `SESSION_START_HOOK_COMPLETE` exists in working directory
 3. **Second Claude Run**: Executes `claude -p "Say 'hello world'"` again
-4. **Second Check**: Verifies if `/workspace/SESSION_START_HOOK_COMPLETE` exists
+4. **Second Check**: Verifies if `SESSION_START_HOOK_COMPLETE` exists in working directory
 5. **Cleanup**: Removes the plugin, marketplace, and test file
 
-The `SessionStart` hook in the plugin is designed to create the `/workspace/SESSION_START_HOOK_COMPLETE` file when it executes successfully.
+The `SessionStart` hook in the plugin is designed to create the `SESSION_START_HOOK_COMPLETE` file in the working directory when it executes successfully.
 
 ## Reproduction Steps
 
